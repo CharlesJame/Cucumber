@@ -1,0 +1,67 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To check the Login functionality using correct credentials",
+        "description": "",
+        "id": "to-login-to-orange-hrm;to-check-the-login-functionality-using-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "user launch the browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "navigates to OrangeHRM Homepage",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user enter the credentials \"Admin\" and \"admin123\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user clicks the Login button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user should be logged in",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Login to Orange HRM",
+    "description": "",
+    "id": "to-login-to-orange-hrm",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/feature/OrangeHRM.feature"
+  }
+]
